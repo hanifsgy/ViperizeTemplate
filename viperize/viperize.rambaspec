@@ -1,0 +1,23 @@
+# Template information section
+name: viperize
+summary: Viper modules template Symbolic
+author: hanifsgy
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+# View Layer
+- {name: View/Controller.swift, path: Code/View/view.swift.liquid}
+# Protocols
+- {name: Protocols/Protocols.swift, path: Code/Protocols/protocols.swift.liquid}
+# Interactor
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+# Presenter
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# The declarations for test files
+
+
+# Template dependencies
+dependencies:
